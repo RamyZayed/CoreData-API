@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D5025f" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="avatar_url" optional="YES" attributeType="URI"/>
+        <attribute name="events_url" optional="YES" attributeType="URI"/>
+        <attribute name="followers_url" optional="YES" attributeType="URI"/>
+        <attribute name="following_url" optional="YES" attributeType="URI"/>
+        <attribute name="gists_url" optional="YES" attributeType="URI"/>
+        <attribute name="gravatar_id" optional="YES" attributeType="String"/>
+        <attribute name="html_url" optional="YES" attributeType="URI"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="login" optional="YES" attributeType="String"/>
+        <attribute name="node_id" optional="YES" attributeType="String"/>
+        <attribute name="organizations_url" optional="YES" attributeType="URI"/>
+        <attribute name="received_events_url" optional="YES" attributeType="URI"/>
+        <attribute name="repos_url" optional="YES" attributeType="URI"/>
+        <attribute name="site_admin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="starred_url" optional="YES" attributeType="URI"/>
+        <attribute name="subscriptions_url" optional="YES" attributeType="URI"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-36" positionY="9" width="128" height="299"/>
+    </elements>
+</model>
