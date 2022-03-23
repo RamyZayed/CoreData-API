@@ -67,8 +67,6 @@ extension Screen1 : UITableViewDataSource{
         
         return cell
     }
-    
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         mytable.deselectRow(at: indexPath, animated: true)
         let ss2vm = s2vm(user: vm.d2array[indexPath.section][indexPath.row])
